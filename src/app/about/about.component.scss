@@ -1,0 +1,121 @@
+.about-container {
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    text-align: center;
+
+    .text-content {
+        flex: 1; 
+        padding: 20px; 
+
+        h2 {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        p {
+            padding: 0px 5rem;
+            line-height: 24px;
+        }
+      }
+      .widget {
+        display: flex;
+        justify-content: center;
+
+        .widget-wrapper {
+            display: flex;
+    
+            .widget-element {
+                padding: 24px;
+
+                .widget-element__count {
+                    font-size: 40px;
+                    font-weight: 700;
+                    box-sizing: border-box;
+                    font-family: "Gilroy", sans-serif;
+                    color: #1ba672;
+                    display: flex;
+                  }
+        
+                .widget-element__title {
+                    font-weight: 400;
+                }
+            }
+
+            .widget-divider {
+                border-left: 2px solid #bfbfbf ; /* Line width and color */
+                margin: 0 20px;
+              }
+          }
+      }
+
+    .user-stories {
+      background-color: #fff;
+      padding: 2rem;
+      .card {
+        border: 1px solid lightgray;
+        background-color: #f8f9fa;
+        width: 300px;
+        margin: auto;
+        border-radius: 16px;
+      }
+    }
+
+    .contact-section{
+        display: flex;
+        text-align: justify;
+        gap: 3rem;
+        font-size: 13px;
+        justify-content: space-evenly;
+        padding: 16px;
+
+        .contact__address {
+            width: 20%;
+
+            .logo {
+                font-family: "Playwrite US Modern", cursive;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+
+        h5 {
+            margin: 0px;
+            font-size: 16px;
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+        }
+
+        .social-icon__wrapper{
+            display: flex;
+            gap: 10px;
+            margin-top: 1rem
+        }
+    }
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    animation: caret 0.75s steps(1) infinite;
+    word-break: break-word;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-container {
+    //   flex-direction: column;
+    //   align-items: flex-start;
+    }
+  
+    .about-container .text-content {
+      width: 100%;
+    }
+  }

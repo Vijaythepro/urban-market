@@ -1,0 +1,80 @@
+<div class="about-container">
+    <div class="text-content">
+        <h2>{{animatedText}}</h2>
+        <p>We specialize in bringing the latest trends and unique designs to urban enthusiasts, providing a seamless
+            shopping experience with convenient delivery options.</p>
+    </div>
+    <div class="widget">
+        <div class="widget-wrapper" *ngFor="let data of widgetData;  let last = last">
+            <div class="widget-element">
+                <div class="widget-element__count">
+                    <span class="widget-element-prefix">
+                        {{data.prefix}}
+                    </span>
+                    <span class="widget-element-count">
+                        {{data.count}}
+                    </span>
+                    <span class="widget-element-suffix">
+                        {{data.suffix}}
+                    </span>
+                </div>
+                <div class="widget-element__title">
+                    {{data.title}}
+                </div>
+            </div>
+            <div *ngIf="!last" class="widget-divider"></div>
+        </div>
+    </div>
+
+    <div class="user-stories">
+        <h4> Discover what everyone's raving about at Urban Market!</h4>
+        <div style="display: flex;">
+            <div class="card">
+                <p>Urban Market is my go-to for trendy, high-quality clothing that always fits perfectly.</p>
+            </div>
+            <div class="card">
+                <p>Urban Market is my go-to for trendy, high-quality clothing that always fits perfectly.</p>
+            </div>
+            <div class="card">
+                <p>Urban Market is my go-to for trendy, high-quality clothing that always fits perfectly.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact__address">
+            <div class="logo">
+                <a> Urban Market</a>
+            </div>
+            <p>© 2024 Urban Market Limited</p>
+            <p> No. 55 Block 9- Ground
+                Floor Embassy Tech | Outer Ring
+                Road,
+                Chennai - 600000</p>
+        </div>
+        <div>
+            <h5> Company</h5>
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Team</li>
+                <li>Urban One</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Conatct Us</h5>
+            <p>Help & support</p>
+            <p>Partner with us</p>
+        </div>
+        <div>
+            <h5>Social Links</h5>
+            <span class="social-icon__wrapper">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </span>
+        </div>
+    </div>
+</div>
