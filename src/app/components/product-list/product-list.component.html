@@ -1,13 +1,13 @@
-<div class="product-contianer">
+<div class="product-container">
     <h3 class="product-banner"> Biggest Deals on top brands
         <!-- <i class="fa-solid fa-fire" style="color: lightsalmon;"></i> -->
     </h3>
-    <div style="display: flex; gap: 1.5rem;">
-        <div class="left__pane" style="width: 20%;background-color: #fff;">
+    <div class="product-element">
+        <div class="left__pane">
             <h3>Filters</h3>
             <app-filter (filterChanged)="applyFilters($event)"></app-filter>
         </div>
-        <div class="right_pane" style="width: 100%;background-color: #fff;">
+        <div class="right_pane">
             <app-sort [data]="productList" (sortedData)="updateSortedData($event)"></app-sort>
             <div class="product-card__container">
                 <div class="card product-card__wrapper" *ngFor="let product of filteredAndSortedProducts">

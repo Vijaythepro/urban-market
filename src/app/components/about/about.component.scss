@@ -22,7 +22,8 @@
       .widget {
         display: flex;
         justify-content: center;
-
+        flex-wrap: wrap;
+        
         .widget-wrapper {
             display: flex;
     
@@ -84,7 +85,7 @@
     }
 
     .contact-section{
-         background-color: rgb(2, 6, 12);
+        background-color: rgb(2, 6, 12);
         color: $white;
         display: flex;
         text-align: justify;
@@ -131,16 +132,5 @@ h2 {
   @keyframes caret {
     50% {
       border-color: transparent;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .about-container {
-    //   flex-direction: column;
-    //   align-items: flex-start;
-    }
-  
-    .about-container .text-content {
-      width: 100%;
     }
   }

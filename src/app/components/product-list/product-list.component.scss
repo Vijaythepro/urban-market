@@ -1,10 +1,25 @@
 @import '../../../styles/variable';
 
-.product-contianer {
+.product-container {
     background-color: $primary-color;
     box-sizing: border-box;
     text-align: center;
     padding: 2rem;
+
+    .product-element {
+        display: flex;
+        gap: 1.5rem;
+       
+        .left__pane {
+            width: 20%;
+            background-color: $white;
+        }
+    
+        .right_pane {
+            width: 100%;
+            background-color: $white;
+        }
+    }
 
     .product-card__container {
         width: 100%;
@@ -119,4 +134,14 @@
 }
 i {
   color: $widget-element-color;
+}
+
+@media (max-width: 768px) {
+    .left__pane{
+        width: 100% !important;
+    }
+
+    .product-element {
+        flex-wrap: wrap;
+    }
 }
