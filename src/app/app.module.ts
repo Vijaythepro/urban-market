@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { AboutComponent } from './about/about.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { SortComponent } from './sort/sort.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AboutComponent } from './components/about/about.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { SortComponent } from './components/sort/sort.component';
+import { FilterComponent } from './components/filter/filter.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SortComponent } from './sort/sort.component';
     HeaderComponent,
     AboutComponent,
     ProductListComponent,
-    SortComponent
+    SortComponent,
+    FilterComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,

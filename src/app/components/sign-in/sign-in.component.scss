@@ -1,0 +1,49 @@
+.card {
+    color: #000;
+    border-radius: 10px;
+    /* padding: 150px 60px; */
+    width: 430px;
+    margin: 50px auto;
+}
+
+.login-card {
+    text-align: center;
+
+    h1 {
+        font-family: "Playwrite US Modern", cursive;
+    }
+
+    .login-card__title {
+        font-size: 16px;
+        margin: 25px auto
+    }
+
+    .login-card__input {
+        border-radius: 5px;
+        padding: 15px 70px;
+        border: 1px solid lightgray;
+        display: block;
+        margin: 15px auto;
+    }
+    
+    .login-card__btn{
+        background-color: #000;
+        color: #fff;
+        padding: 10px 27px;
+        border-radius: 35px;
+        border: none;
+        margin-top: 12px;
+    }
+
+    .login-card__terms {
+        font-size: 10px;
+
+        a{
+            color: #000;
+        }
+    }
+}
+
+
+
+

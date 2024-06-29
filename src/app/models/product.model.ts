@@ -8,4 +8,5 @@ export interface Product {
     percentage: number;
     leftover?: string;
     img: string;
+    id: string;
 }

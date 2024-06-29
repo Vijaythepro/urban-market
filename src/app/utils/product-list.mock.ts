@@ -5,6 +5,7 @@ export const productList: Product[] = [
     {
         brandName:'Being Human',
         type: 'Pure cotton polo T-shirt',
+        id: 'beingHuman',
         originalPrice: 1499,
         discountedPrice: 739,
         userRating: 4.4,
@@ -15,6 +16,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'Roadster',
+        id: 'roadster',
         type: 'Printed Round Neck Pure cotton T-shirt',
         originalPrice: 899,
         discountedPrice: 251,
@@ -26,6 +28,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'Being Human',
+        id: 'beingHuman',
         type: 'Men Graphic Printed T-shirt',
         originalPrice: 1799,
         discountedPrice: 629,
@@ -37,6 +40,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'Roadster',
+        id: 'roadster',
         type: 'Pure cotton polo T-shirt',
         originalPrice: 999,
         discountedPrice: 309,
@@ -48,6 +52,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'WROGN',
+        id: 'wrogn',
         type: 'Printed Pure cotton T-shirt',
         originalPrice: 899,
         discountedPrice: 584,
@@ -59,6 +64,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'WROGN',
+        id: 'wrogn',
         type: 'Self Design Slim Fit T-shirt',
         originalPrice: 999,
         discountedPrice: 649,
@@ -70,6 +76,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'WROGN',
+        id: 'wrogn',
         type: 'Corduroy Casual Shirt',
         originalPrice: 2499,
         discountedPrice: 1624,
@@ -81,6 +88,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'WROGN',
+        id: 'wrogn',
         type: 'Printed Casual shirt',
         originalPrice: 2399,
         discountedPrice: 1559,
@@ -92,6 +100,7 @@ export const productList: Product[] = [
     },
     {
         brandName:'HIGHLANDER',
+        id: 'highlander',
         type: 'Slim fit Cotton Shirt',
         originalPrice: 1349,
         discountedPrice: 381,

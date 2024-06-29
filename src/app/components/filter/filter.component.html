@@ -1,0 +1,7 @@
+<div class="filter-container">
+    <h4>Brand</h4>
+    <div *ngFor="let filter of filters" class="filter-list">
+        <input type="checkbox" [id]="filter.name" [value]="filter.name" (change)="onFilterChange($event)">
+        <label [for]="filter.name">{{ filter.displayName }}</label>
+    </div>
+</div>
