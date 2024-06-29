@@ -9,6 +9,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { SortComponent } from './components/sort/sort.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
+import { ErrorPageComponent } from './components/error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
     ProductListComponent,
     SortComponent,
     FilterComponent,
-    SignInComponent
+    SignInComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
