@@ -1,5 +1,7 @@
+@import '../../../styles/variable';
+
 .about-container {
-    background-color: #f8f9fa;
+    background-color: $primary-color;
     box-sizing: border-box;
     text-align: center;
 
@@ -32,7 +34,7 @@
                     font-weight: 700;
                     box-sizing: border-box;
                     font-family: "Gilroy", sans-serif;
-                    color: #1ba672;
+                    color: $widget-element-color;
                     display: flex;
                   }
         
@@ -42,18 +44,18 @@
             }
 
             .widget-divider {
-                border-left: 2px solid #bfbfbf ; /* Line width and color */
+                border-left: 2px solid $vertical-divider ; /* Line width and color */
                 margin: 0 20px;
               }
           }
       }
 
     .user-stories {
-      background-color: #fff;
+      background-color: $white;
       padding: 2rem;
       .card {
         border: 1px solid lightgray;
-        background-color: #f8f9fa;
+        background-color: $primary-color;
         width: 300px;
         margin: auto;
         border-radius: 16px;
