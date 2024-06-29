@@ -88,10 +88,11 @@
         background-color: rgb(2, 6, 12);
         color: $white;
         display: flex;
-        text-align: justify;
+        text-align: left;
         gap: 3rem;
         font-size: 13px;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         padding: 16px;
 
         .contact__address {
