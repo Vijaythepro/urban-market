@@ -99,7 +99,7 @@ export const productList: Product[] = [
         img: "https://rukminim2.flixcart.com/image/850/1000/kpwybgw0/shirt/j/7/8/s-wksh1843-wrogn-original-imag4fhhq7tszzgz.jpeg?q=90&crop=false"
     },
     {
-        brandName:'HIGHLANDER',
+        brandName:'Highlander',
         id: 'highlander',
         type: 'Slim fit Cotton Shirt',
         originalPrice: 1349,

@@ -16,7 +16,7 @@ export class FilterComponent implements OnInit {
     { name: 'beingHuman', displayName: 'Being Human' },
     { name: 'roadster', displayName: 'Roadster' },
     { name: 'wrogn', displayName: 'WROGN' },
-    { name: 'highlander', displayName: 'HIGHLANDER' },
+    { name: 'highlander', displayName: 'Highlander' },
   ];
 
   selectedFilters: string[] = [];
