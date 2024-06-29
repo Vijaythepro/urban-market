@@ -61,8 +61,31 @@
         border-radius: 16px;
       }
     }
+    
+    .footer-content{
+      margin: 25px 0px;
+      border-top: 1px solid $vertical-divider;
+
+      p {
+        font-weight: 600;
+      }
+
+      .download-button {
+        background-color: #000;
+        color: #fff;
+        margin-right: 2%;
+        padding: 12px;
+        border-radius: 8px;
+
+        span {
+          margin-left: 8px;
+        }
+      }
+    }
 
     .contact-section{
+         background-color: rgb(2, 6, 12);
+        color: $white;
         display: flex;
         text-align: justify;
         gap: 3rem;
