@@ -15,7 +15,7 @@
         }
 
         p {
-            padding: 0px 5rem;
+            padding: 0% 8%;
             line-height: 24px;
         }
       }
@@ -81,6 +81,10 @@
         span {
           margin-left: 8px;
         }
+      }
+
+      .download-button:hover {
+        cursor: pointer;
       }
     }
 
