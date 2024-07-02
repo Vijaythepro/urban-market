@@ -109,5 +109,42 @@ export const productList: Product[] = [
         percentage: 71,
         leftover: 'Only Few Left!',
         img: "https://rukminim2.flixcart.com/image/850/1000/k70spzk0/shirt/p/m/a/m-hlsh010647-highlander-original-imafpchtzzxekhkj.jpeg?q=90&crop=false"
+    },
+    {
+        brandName:'Highlander',
+        id: 'highlander',
+        type: 'Slim fit checked Shirt',
+        originalPrice: 1849,
+        discountedPrice: 981,
+        userRating: 4.2,
+        ratingCount: 656,
+        percentage: 52,
+        leftover: 'Only Few Left!',
+        img: "https://rukminim2.flixcart.com/image/850/1000/k7c88sw0/shirt/k/t/x/s-hlsh011444-highlander-original-imafphpuh46scbgh.jpeg?q=90&crop=false"
+    }
+    ,
+    {
+        brandName:'Highlander',
+        id: 'highlander',
+        type: 'Slim fit checked casual Shirt',
+        originalPrice: 1429,
+        discountedPrice: 367,
+        userRating: 4.1,
+        ratingCount: 989,
+        percentage: 78,
+        leftover: 'Only Few Left!',
+        img: "https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/s/c/c/xl-hlsh014057-highlander-original-imagkc3kavmn8hdt.jpeg?q=20&crop=false"
+    },
+    {
+        brandName:'Highlander',
+        id: 'highlander',
+        type: 'Regular fit checked Shirt',
+        originalPrice: 1199,
+        discountedPrice: 999,
+        userRating: 4.7,
+        ratingCount: 912,
+        percentage: 25,
+        leftover: 'Only Few Left!',
+        img: "https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/n/k/x/xl-hlsh014052-highlander-original-imagh63443zjrjrf.jpeg?q=90&crop=false"
     }
 ]
