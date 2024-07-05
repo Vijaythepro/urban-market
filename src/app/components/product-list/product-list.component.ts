@@ -23,8 +23,16 @@ export class ProductListComponent implements OnInit {
   }
 
   getProductList() {
-    this.productList = this.productService.getProducts();
-    this.filteredAndSortedProducts = [...this.productList];
+     this.productService.getProducts().subscribe({
+      next: (data: Product[])=> {
+        this.productList = data;
+        this.filteredAndSortedProducts = [...this.productList];
+      },
+      error: (err)=>{
+        console.log(err);
+      }
+    });
+   
   }
 
   applyFilters(selectedFilters: string[]): void {
